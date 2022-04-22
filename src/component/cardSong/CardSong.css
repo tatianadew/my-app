@@ -1,0 +1,53 @@
+.Card {
+    margin: 16px;
+    padding: 0px 32px;
+    text-align: start;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    align-items: center;
+    width: 500px;
+    height: 150px;
+    background-color: rgba(113, 113, 113, 0.2);
+    border-radius: 10px;
+}
+
+.Card:hover {
+    background-color: rgba(113, 113, 113, 0.35);
+}
+
+.Card img {
+    border-radius: 10px;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.text-component {
+    margin: 4px 24px;
+}
+
+.text-component p {
+    color: white;
+}
+
+.album{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.buttonSelect {
+    border-radius: 10px;
+    padding: 15px 32px;
+    background-color: #4CAF50;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.buttonSelect:hover {
+    box-shadow: 0 6px 16px 0 rgba(37, 37, 37, 0.19), 0 17px 20px 0 rgba(37, 37, 37, 0.19);
+    background-color: #6dc870;
+}

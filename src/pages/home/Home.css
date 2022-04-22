@@ -1,0 +1,64 @@
+
+p {
+  margin: 0px 0px;
+  color: #EAD32B;
+}
+
+.Home {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    color: black;
+    height: 100vh;
+    background-image: linear-gradient(90deg, #7242be 50%, #dd61b8 50%);
+    font-family: nos;
+    padding-left: 128px;
+    padding-right: 128px;
+}
+
+.content {
+    margin-top: 20vh;
+    margin-left: 2%;
+    z-index: 1;
+    justify-content: space-between;
+}
+
+.titleHome {
+    font-size: 256px;
+}
+
+.titleHomeChild {
+  font-size: 64px;
+}
+
+.titleDescription {
+  padding: 64px 0px;
+  font-size: 36px;
+}
+
+.centerImage {
+  position: absolute;
+  right: 20vh;
+  bottom: 0vh;
+  z-index: 0;
+}
+
+.tapeImage {
+  width: 970px;
+  height: 970px;
+}
+
+.watermark {
+  padding-bottom: 64px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.buttonLogin {
+    background-image: linear-gradient(to right, #EEBEFF, pink);
+    border-color: white;
+    font-family: nos;
+    color: #319741;
+}
